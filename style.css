@@ -36,6 +36,7 @@ body {
     box-shadow: 0 0 1rem rgba(0,0,0,0.1);
     font-size: 8vmin;
     color: #124559;
+    background-color: #EFF6E0;
 }
 
 
@@ -57,4 +58,15 @@ h1 {
     border: none;
     transform: scale(1.05);
     transition: all 0.3s ease;
+}
+
+.msg {
+    height: 5vmin;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem; /* optional: adds spacing between items */
+    flex-direction: row; /* default, but add for clarity */
+    visibility: hidden;
 }
